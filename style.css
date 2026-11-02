@@ -1,0 +1,90 @@
+* {
+    font-family: 'Segoe UI';
+    padding: 2px;
+    margin: 0;
+    }
+    
+body{
+        color:#74020e;
+        background-color: mistyrose;
+        padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid #74020e ;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #f5c6cb ;
+    color: #74020e ;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f5c6cb ;
+
+
+
+}
+
+.pro{
+
+    margin-bottom: 20px;
+    border: 2px solid #74020e ;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 600px) {
+    #projects {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    #projects {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+footer{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid #74020e ;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #f5c6cb ;
+    color: #74020e ;    
+}
