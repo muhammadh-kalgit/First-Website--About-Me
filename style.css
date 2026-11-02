@@ -88,3 +88,12 @@ footer{
     background-color: #f5c6cb ;
     color: #74020e ;    
 }
+
+:root {
+    --brand: #74020e;
+    --card: #f5c6cb;
+}
+
+.pro:hover {
+    transform: translateY(-4px);
+}
